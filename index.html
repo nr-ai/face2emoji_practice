@@ -9,6 +9,8 @@
     <video playsinline autoplay></video>
     <button>Snapshot</button>
     <canvas></canvas>
+    <span>Your emoji</span>
+
     <script>
     video = document.querySelector('video');
     canvas = document.querySelector('canvas');
@@ -20,6 +22,7 @@
 
     span = document.querySelector('span');
     span.style.fontSize='48px';
+
     const LABELS = {
         0: '🤬', // angry
         1: '🤢', // disgust
