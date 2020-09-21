@@ -45,7 +45,7 @@
         span.innerHTML = '⌛';
         predict();
     };
-     async function predict() {
+  async function predict() {
         const model = await tf.loadLayersModel('./model/model.json');
 
         image = tf.browser.fromPixels(canvas);
